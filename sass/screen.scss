@@ -41,3 +41,13 @@ ul.navi li {
     display:block;
   }
 }
+
+.matkaopas {
+  width:500px;
+  @media screen and (max-width:$break-large) {
+    width:80%;
+  }
+  @media screen and (max-width:$break-small) {
+    display:none;
+  }
+}
