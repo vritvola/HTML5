@@ -45,6 +45,7 @@ ul.navi li {
 .matkaopas {
   width:500px;
   @media screen and (max-width:$break-large) {
+    max-width:500px;
     width:80%;
   }
   @media screen and (max-width:$break-small) {
